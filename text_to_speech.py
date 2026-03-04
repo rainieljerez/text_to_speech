@@ -5,8 +5,8 @@ import edge_tts
 #en-PH-JamesNeural
 #en-PH-RosaNeural
 async def main():
-    tts = edge_tts.Communicate("isa dalawa tatlo you will never be celine", "fil-PH-AngeloNeural")
-    tts = edge_tts.Communicate("isa dalawa tatlo you will never be celine", "fil-PH-AngeloNeural")
-    await tts.save ("test.mp3")
+    tts = edge_tts.Communicate("mabuhay ako si angelo", "fil-PH-AngeloNeural")
+    tts = edge_tts.Communicate("mabuhay ako si blessica", "fil-PH-BlessicaNeural")
+    await tts.save ("mabuhay introduction.mp3")
 
 asyncio.run(main())
